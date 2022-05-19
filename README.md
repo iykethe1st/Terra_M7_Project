@@ -1,6 +1,1 @@
-# artproject
-# artproject
-# artproject
-# artproject
-# artproject
-# artproject
+E-commerce Project using Django(backend) and Vue JS
