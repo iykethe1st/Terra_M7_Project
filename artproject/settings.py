@@ -9,14 +9,6 @@ https://docs.djangoproject.com/en/4.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
-PAYSTACK_API_KEY_PUBLISHABLE = "pk_test_7923cbcd323aef4fc4b8425d1d6e47e1e2e486a0"
-PAYSTACK_API_KEY_HIDDEN = "sk_test_864de5e13527d0669ddac44ef8968e82b5248315"
-
-RAZORPAY_API_KEY_PUBLISHABLE = "rzp_test_Wj7ujrjP6ULkuq"
-RAZORPAY_API_KEY_HIDDEN = "WT8djoNtYSAzA28BrhryFL0f"
-
-PAYPAL_API_KEY_PUBLISHABLE = "Ab5gaq5YlFHQTAgbcIW79GV4wE7ObsefiPyNMNV87z1-2JzdNhHpOfGKIduOM1qItLgLI3eA2Z3PIHLw"
-PAYPAL_API_KEY_HIDDEN = "aEKFH985N2oOIFWOeS7rdq2Nht6CdztTVDDjDuQCMIBKcAbjyL-Z3ZY9DeznZSaFbQTp1H4o7CrxgwjX4x"
 
 import os
 
@@ -30,7 +22,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-kr00_=kfn5!ru9swn5_r*9c!qn31wlz%=6g5l_lpo6+0js)38f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
